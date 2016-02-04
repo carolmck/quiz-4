@@ -18,4 +18,4 @@ for (i=0; i<students.length; i++) {
 console.log(students[loser] + " has the lowest score of " + gradeMean[loser]);
 console.log(students[loser]);
 
-document.getElementById("content").innerHTML=students[loser]+ " has the lowest score.";
+document.getElementById("content").innerHTML=students[loser]+ " has the lowest score of " + gradeMean[loser];
